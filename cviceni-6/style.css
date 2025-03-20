@@ -1,0 +1,16 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.125rem;
+  padding: 50px;
+}
+
+/*
+Nákupní seznam:
+- nastyluj seznam tak, aby vypadal jako to-do list
+- před každou položkou bude prázdný čtvereček
+- položky, které mají class="done", budou mít ve čtverečku textové emoji ✔️
+*/

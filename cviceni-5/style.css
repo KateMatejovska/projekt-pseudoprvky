@@ -1,0 +1,13 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+h1, h2 {
+  text-align: center;
+}

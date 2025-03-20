@@ -1,0 +1,18 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.125rem;
+  padding: 50px;
+}
+
+:root {
+  --czechitas-blue: #2d2e83aa;
+  --czechitas-pink: #e6007eaa;
+}
+
+h1 {
+  text-align: center;
+}
